@@ -1115,8 +1115,8 @@ textarea {
     transition: opacity var(--animation);
 }
 
-/* Mobile Modal-Backdrop */
-@media screen and (max-width: 767px) {
+/* Mobile / Tablet Modal-Backdrop */
+@media screen and (max-width: 1199px) {
     .modal-backdrop {
         overflow-y: scroll;
     }
@@ -1143,8 +1143,8 @@ textarea {
     transition: transform var(--animation);
 }
 
-/* Responsive Mobile Modal-Container */
-@media screen and (max-width: 767px) {
+/* Responsive Mobile / Tablet Modal-Container */
+@media screen and (max-width: 1199px) {
     .modal-container {
         top: 10%;
         transform: translateX(-50%);
@@ -1461,7 +1461,7 @@ textarea {
 @media screen and (max-width: 767px) {
     .portfolio-btns-list {
         justify-content: flex-start;
-        row-gap: 8px;
+        row-gap: 16px;
         margin-bottom: 40px;
     }
 }
